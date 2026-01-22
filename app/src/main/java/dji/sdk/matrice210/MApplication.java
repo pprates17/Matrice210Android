@@ -1,4 +1,4 @@
-package ch.hevs.matrice210;
+package dji.sdk.matrice210;
 
 import android.app.Application;
 import android.content.Context;

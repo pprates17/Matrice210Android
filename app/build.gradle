@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "ch.hevs.matrice210"
+        applicationId "dji.sdk.matrice210"
         minSdkVersion 22
         targetSdkVersion 26
         versionCode 1

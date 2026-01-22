@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ch.hevs.matrice210">
+    package="dji.sdk.matrice210">
 
     <!-- Permissions and features -->
     <uses-permission android:name="android.permission.BLUETOOTH" />
@@ -33,14 +33,14 @@
     <!-- Permissions and features -->
 
     <application
-        android:name=".MApplication"
+        android:name="dji.sdk.matrice210.MApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".MainFragmentActivity">
+        <activity android:name="dji.sdk.matrice210.MainFragmentActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -51,7 +51,7 @@
         <uses-library android:name="com.android.future.usb.accessory" />
         <meta-data
             android:name="com.dji.sdk.API_KEY"
-            android:value="458407c22f4cdedbc0a34a18" />
+            android:value="5a743ae56b984e94e2e4355a" />
         <activity
             android:name="dji.sdk.sdkmanager.DJIAoaControllerActivity"
             android:theme="@android:style/Theme.Translucent" >

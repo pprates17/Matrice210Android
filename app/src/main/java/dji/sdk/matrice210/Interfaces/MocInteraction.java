@@ -1,4 +1,4 @@
-package ch.hevs.matrice210.Interfaces;
+package dji.sdk.matrice210.Interfaces;
 
 import dji.common.error.DJIError;
 

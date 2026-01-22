@@ -1,4 +1,4 @@
-package ch.hevs.matrice210.Fragments;
+package dji.sdk.matrice210.Fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -18,8 +18,8 @@ import com.dji.mapkit.models.DJILatLng;
 import java.util.Observable;
 import java.util.Observer;
 
-import ch.hevs.matrice210.R;
-import ch.hevs.matrice210.tools.DensityUtil;
+import dji.sdk.matrice210.R;
+import dji.sdk.matrice210.tools.DensityUtil;
 import dji.ux.widget.MapWidget;
 
 /**

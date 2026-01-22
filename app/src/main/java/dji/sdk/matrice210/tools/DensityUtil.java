@@ -1,4 +1,4 @@
-package ch.hevs.matrice210.tools;
+package dji.sdk.matrice210.tools;
 
 import android.content.Context;
 

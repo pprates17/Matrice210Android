@@ -1,4 +1,4 @@
-package ch.hevs.matrice210.Fragments;
+package dji.sdk.matrice210.Fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -22,10 +22,10 @@ import java.util.regex.MatchResult;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import ch.hevs.matrice210.Interfaces.MocInteraction;
-import ch.hevs.matrice210.Interfaces.MocInteractionListener;
-import ch.hevs.matrice210.R;
-import ch.hevs.matrice210.tools.ByteArrayUtils;
+import dji.sdk.matrice210.Interfaces.MocInteraction;
+import dji.sdk.matrice210.Interfaces.MocInteractionListener;
+import dji.sdk.matrice210.R;
+import dji.sdk.matrice210.tools.ByteArrayUtils;
 import dji.common.error.DJIError;
 
 public class MissionFragment extends Fragment implements Observer, View.OnClickListener, MocInteraction {

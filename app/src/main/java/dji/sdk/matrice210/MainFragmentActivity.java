@@ -1,4 +1,4 @@
-package ch.hevs.matrice210;
+package dji.sdk.matrice210;
 
 import android.Manifest;
 import android.app.Activity;
@@ -25,12 +25,12 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import ch.hevs.matrice210.Fragments.DashboardFragment;
-import ch.hevs.matrice210.Fragments.MissionFragment;
-import ch.hevs.matrice210.Fragments.PilotFragment;
-import ch.hevs.matrice210.Interfaces.MocInteraction;
-import ch.hevs.matrice210.Interfaces.MocInteractionListener;
-import ch.hevs.matrice210.tools.ByteArrayUtils;
+import dji.sdk.matrice210.Fragments.DashboardFragment;
+import dji.sdk.matrice210.Fragments.MissionFragment;
+import dji.sdk.matrice210.Fragments.PilotFragment;
+import dji.sdk.matrice210.Interfaces.MocInteraction;
+import dji.sdk.matrice210.Interfaces.MocInteractionListener;
+import dji.sdk.matrice210.tools.ByteArrayUtils;
 import dji.common.error.DJIError;
 import dji.common.error.DJISDKError;
 import dji.common.useraccount.UserAccountState;
